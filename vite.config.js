@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/YOUSSEF_PORTFOLIO/',
   plugins: [react()],
-  base: "/YOUSSEF_PORTFOLIO"
 })
