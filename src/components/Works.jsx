@@ -28,6 +28,7 @@ const ProjectCard = ({
       >
         <div className='relative w-full h-[230px] justify-center items-center'>
           <video
+          loading="lazy"
             src={image}
             autoPlay
             muted

@@ -23,6 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
+          loading="lazy"
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
