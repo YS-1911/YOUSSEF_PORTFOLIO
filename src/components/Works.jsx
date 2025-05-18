@@ -27,8 +27,11 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px] justify-center items-center'>
-          <img
+          <video
             src={image}
+            autoPlay
+            muted
+            loop
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />

@@ -1,28 +1,22 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  Filmys,
+  github2,
+  bootstrap,
+  rockgym,
+  xmora,
+  kmohamed,
+  mahmod,
 } from "../assets";
 
 export const navLinks = [
@@ -50,12 +44,8 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "frontend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -72,30 +62,20 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -105,66 +85,63 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: github2,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "figma",
+    icon: figma,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    icon: html,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "mar 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining modern, user-friendly web applications that deliver a smooth and efficient user experience.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality digital products.",
+      "Implementing responsive design to ensure seamless performance across different devices and browsers.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "bootstrap Developer ",
+
+    icon: bootstrap,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Feb 2024",
+    points: [
+      "Developing and maintaining responsive web interfaces using Bootstrap.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create clean and user-friendly UI components",
+      "Implementing fully responsive layouts with Bootstrap and ensuring cross-browser compatibility.",
+    ],
+  },
+  {
+    title: "React.js Developer",
+
+    icon: reactjs,
+    iconBg: "#383E56",
+    date: "Jan 2025 - Present ",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "javascript Developer",
+
+    icon: javascript,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "Crafting dynamic and interactive web features using JavaScript to elevate user engagement and application responsiveness.",
+      "Working closely with product teams and UX/UI designers to translate creative concepts into performant front-end experiences.",
+      "Optimizing client-side performance by leveraging modern JavaScript patterns, asynchronous programming, and browser APIs.",
+      "Enforcing clean code standards through peer reviews, unit testing, and continuous refactoring to support long-term scalability.",
     ],
   },
 ];
@@ -172,93 +149,97 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I had the pleasure of working with youssef on a project, and I was blown away by their skills and professionalism. ",
+    name: "coache mohamed",
+    designation: "coach",
+    company: "rock gym",
+    image: kmohamed,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I can't believe I got the chance to work with the best web developer in the industry.",
+    name: "mostafa",
     designation: "COO",
-    company: "DEF Corp",
+    company: "creativo",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "He improved my graduation project in a beautiful and excellent way, and I recommend it hard",
+    name: "mahmoud",
+    designation: "student of computer science",
+    company: "mansoura university",
+    image: mahmod,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ROCK GYM",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "ROCK GYM is a fitness and wellness platform that offers personalized workout plans, nutrition tracking, and community support to help users achieve their fitness goals.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "VITE",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "BOOTSTRAP",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: rockgym,
+    source_code_link: "https://github.com/YS-1911/ROCK-GYM",
   },
   {
-    name: "Job IT",
+    name: "Company YS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "YS is a dynamic software development firm that transforms ideas into high‑quality digital products. With a focus on agile collaboration and cutting‑edge technologies.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Filmys,
+    source_code_link: "https://github.com/YS-1911/YS-PROG",
+  },
+  {
+    name: "XMORA",
+    description:
+      "XMORA is a cutting-edge e-commerce platform that leverages advanced technology to provide a seamless shopping experience",
+    tags: [
+      {
+        name: "REACT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TELWIND",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SASS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: xmora,
+    source_code_link: "https://github.com/YS-1911/xora-main",
   },
 ];
 
