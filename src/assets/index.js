@@ -7,7 +7,7 @@ import github from "./github.png";
 import github2 from "./github2.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import Filmys  from "./FilmForth Untitled.mp4";
+import Filmys from "./FilmForth Untitled.mp4";
 import rockgym from "./rock-gym.mp4";
 import xmora from "./xmora.mp4";
 import css from "./tech/css.png";
@@ -20,8 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import kmohamed from "./coache-mohamed.jpg";
-import mahmod from "./محمود.jpg"
-
+import mahmoud from "./mahmoud.jpg";
 
 export {
   logo,
@@ -45,6 +44,6 @@ export {
   github2,
   bootstrap,
   xmora,
-  kmohamed ,
-  mahmod,
+  kmohamed,
+  mahmoud,
 };

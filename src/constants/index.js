@@ -16,7 +16,7 @@ import {
   rockgym,
   xmora,
   kmohamed,
-  mahmod,
+  mahmoud,
 } from "../assets";
 
 export const navLinks = [
@@ -169,7 +169,7 @@ const testimonials = [
     name: "mahmoud",
     designation: "student of computer science",
     company: "mansoura university",
-    image: mahmod,
+    image: mahmoud,
   },
 ];
 
